@@ -48,7 +48,7 @@ app.get("/api/v1/test", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./pbulic", "index.html"));
+  res.sendFile(path.resolve(__dirname, "./public", "index.html"));
 });
 
 // NOT FOUND MIDDLEWARE
